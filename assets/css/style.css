@@ -7,12 +7,6 @@
 }
 
 
-
-
-
-
-
-
 /* #region debug */
 .debug .container{
     border: 1px dashed black;
@@ -121,8 +115,8 @@ nav{
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 200px;
+    padding-right: 244px;
     justify-content: space-between;
 }
 .icon{
@@ -173,3 +167,31 @@ nav{
 .aaaa{
     left: 0%;
 }
+/* endregion main */
+/* #region footer */
+.namesite{
+    background-color: black;
+    width: 100%;
+    color: white;
+    padding-left: 200px;
+    padding-right: 250px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    h3{
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    a{
+        font-size: 8px;
+        margin-top: 20px;
+    }
+}
+.social{
+    h4{
+        margin-bottom: 7px;
+    }
+}
+
+
+/* #end region footer */
