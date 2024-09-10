@@ -1,8 +1,115 @@
+/* #region root */
+:root{
+    --main: #ff6900;
+
+}
+
+
+
+
+
+
+
+
+/* #region debug */
+.debug .container{
+    border: 1px dashed black;
+}
+.debug .bgorange{
+    height: 40px;
+}
+
+/* #endregion debug */
+
 /* #region common */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+img{
+    max-width: 100%;
+}
 
-/*  */
+/* #endregion common */
+
+/* #region utilities */
+.container{
+    width: 100%;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+}
+a{
+    text-decoration: none;
+    padding: 3px;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;   
+}
+nav{
+    display: flex;
+    vertical-align: middle;
+    padding: 6px;
+}
+.square{
+    width: 210px;
+    border: 1px solid white;
+    height: 360px;
+    margin: 2px
+    ;
+    
+}
+/* #endregion utilities */
+/* #region header */
+.bgorange{
+    background: var(--main);
+    background-image: url(../img/boolean-logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: space-between;
+}
+.icon{
+
+}
+.card{
+    width: 100%;
+    padding: 40px;
+    padding-inline: 200px;
+}
+.card > div{
+    color: red;
+}
+/* endregion header */
+
+/* #region main */
+.relaxed{
+    background-image: url(../img/1.webp);
+    background-size: cover;
+}
+.roses{
+    background-image: url(../img/2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.pastello{
+    background-image: url(../img/3.webp);
+    background-size: cover;
+}
+.tee{
+    background-image: url(../img/4.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.stripe{
+    background-image: url(../img/5.webp);
+    background-size: cover;
+}
+.maglione{
+    background-image: url(../img/6.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
