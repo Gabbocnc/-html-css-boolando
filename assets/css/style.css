@@ -5,6 +5,7 @@
 
 
 }
+/* #endregion root */
 
 
 /* #region debug */
@@ -72,6 +73,7 @@ nav{
     background-color: aliceblue;
     width: 15px;
     text-align: center;
+    display: none;
 }
 .sostenibilità{
     position: absolute;
@@ -119,15 +121,13 @@ nav{
     padding-right: 244px;
     justify-content: space-between;
 }
-.icon{
 
-}
 .card{
     width: 100%;
     padding: 40px;
     padding-inline: 200px;
 }
-/* endregion header */
+/* #endregion header */
 
 /* #region main */
 .relaxed{
@@ -167,7 +167,7 @@ nav{
 .aaaa{
     left: 0%;
 }
-/* endregion main */
+/* #endregion main */
 /* #region footer */
 .namesite{
     background-color: black;
@@ -193,5 +193,30 @@ nav{
     }
 }
 
-
-/* #end region footer */
+/* #endregion footer */
+/* #region hooverlike */
+.relaxed:hover .like{
+    display: block;
+    color: red;
+}
+.roses:hover .like{
+    display: block;
+    color: red;
+}
+.pastello:hover .like{
+    display: block;
+    color: red;
+}
+.tee:hover .like{
+    display: block;
+    color: red;
+}
+.stripe:hover .like{
+    display: block;
+    color: red;
+}
+.maglione:hover .like{
+    display: block;
+    color: red;
+}
+/* #endregion hoverlike */
