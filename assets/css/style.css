@@ -218,3 +218,23 @@ nav{
     color: red;
 }
 /* #endregion hoverlike */
+/* #region hoverimg */
+.relaxed:hover{
+    background-image: url(../img/1b.webp);
+}
+.roses:hover{
+    background-image: url(../img/2b.webp);
+}
+.pastello:hover{
+    background-image: url(../img/3b.webp);
+}
+.tee:hover{
+    background-image: url(../img/4b.webp);
+}
+.stripe:hover{
+    background-image: url(../img/5b.webp);
+}
+.maglione:hover{
+    background-image: url(../img/6b.webp);
+}
+/* #endregion hoverimg */
