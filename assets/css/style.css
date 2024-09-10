@@ -6,8 +6,6 @@
 
 }
 /* #endregion root */
-
-
 /* #region debug */
 .debug .container{
     border: 1px dashed black;
@@ -17,7 +15,6 @@
 }
 
 /* #endregion debug */
-
 /* #region common */
 *{
     margin: 0;
@@ -29,7 +26,6 @@ img{
 }
 
 /* #endregion common */
-
 /* #region utilities */
 .container{
     width: 100%;
@@ -127,8 +123,10 @@ nav{
     padding: 40px;
     padding-inline: 200px;
 }
+.icon{
+   padding-top: 5px; 
+}
 /* #endregion header */
-
 /* #region main */
 .relaxed{
     background-image: url(../img/1.webp);
