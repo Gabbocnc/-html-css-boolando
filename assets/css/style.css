@@ -1,6 +1,8 @@
 /* #region root */
 :root{
     --main: #ff6900;
+    --sostenibilità: green;
+
 
 }
 
@@ -56,9 +58,60 @@ nav{
     width: 210px;
     border: 1px solid white;
     height: 360px;
-    margin: 2px
-    ;
-    
+    margin: 2px;  
+}
+.discount{
+    position: absolute;
+    bottom: 5%;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    width: 25px;
+    height: 13px;
+    background-color: red;
+}
+.like{
+    position: absolute;
+    right: 0;
+    top: 2%;
+    background-color: aliceblue;
+    width: 15px;
+    text-align: center;
+}
+.sostenibilità{
+    position: absolute;
+    bottom: 5%;
+    left: 27px;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    background-color: var(--sostenibilità);
+    height: 13px;
+    color: white;
+
+}
+.brand{
+    position: absolute;
+    top: 100%;
+    font-size: 10px;
+}
+.name{
+    position: absolute;
+    top: 102%;
+    font-size: 12px;
+}
+.price{
+    position: absolute;
+    top: 105%;
+    font-size: 9px;
+}
+.price{
+    color: red;
+}
+.delete{
+    color: black;
+    text-decoration: line-through;
 }
 /* #endregion utilities */
 /* #region header */
@@ -80,36 +133,43 @@ nav{
     padding: 40px;
     padding-inline: 200px;
 }
-.card > div{
-    color: red;
-}
 /* endregion header */
 
 /* #region main */
 .relaxed{
     background-image: url(../img/1.webp);
     background-size: cover;
+    position: relative;
+    margin-bottom: 50px;
 }
 .roses{
     background-image: url(../img/2.webp);
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
 }
 .pastello{
     background-image: url(../img/3.webp);
     background-size: cover;
+    position: relative;
 }
 .tee{
     background-image: url(../img/4.webp);
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
 }
 .stripe{
     background-image: url(../img/5.webp);
     background-size: cover;
+    position: relative;
 }
 .maglione{
     background-image: url(../img/6.webp);
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
+}
+.aaaa{
+    left: 0%;
 }
