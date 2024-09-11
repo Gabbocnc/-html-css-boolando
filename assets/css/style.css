@@ -119,15 +119,13 @@ header{
     padding-left: 200px;
     padding-right: 244px;
     justify-content: space-between;
+    align-items: center;
 }
 
 .card{
     width: 100%;
     padding: 30px;
-    padding-inline: 200px;
-}
-.icon{
-   padding-top: 5px; 
+    padding-inline: 204px;
 }
 /* #endregion header */
 /* #region main */
